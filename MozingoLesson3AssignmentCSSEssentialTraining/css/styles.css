@@ -1,0 +1,82 @@
+/*
+COLOR PALETTE
+https://coolors.co/120309-63adf2-a7cced-82a0bc-ffcb77
+--licorice: #120309ff
+--argentinian-blue: #63adf2ff
+--uranian-blue: #a7ccedff
+--air-superiority-blue: #82a0bcff
+--sunset: #ffcb77ff
+*/
+
+
+/*Global styles
+----------------------------------*/
+body {
+    color: #120309ff;
+}
+
+img {
+    width: 300px;
+}
+
+a {
+    color: #ffffff;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*Profile
+----------------------------------*/
+header {
+    background-color: #a7ccedff;
+}
+.quote {
+    font-weight: Bold;
+    font-style: Italic;
+}
+
+/*Project
+----------------------------------*/
+.projects {
+    background: #ffcb77ff;
+}
+
+.projects a {
+
+}
+
+.projects .button {
+    color: white;
+    background: #4285F4;
+    border-radius: 4px;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.projects .button:hover {
+    background:rgba(66, 133, 244, 80%);
+
+}
+
+
+/*Work Experience
+----------------------------------*/
+.work-experience {
+    background: #63ADF2;
+}
+
+
+/*Education
+----------------------------------*/
+.education {
+    background: #ffcb77ff;
+}
+
+
+/*Contact Info
+----------------------------------*/
+footer {
+    background: #A7CCED;
+}
