@@ -1,0 +1,135 @@
+/*
+COLOR PALETTE
+https://coolors.co/120309-63adf2-a7cced-82a0bc-ffcb77
+--licorice: #120309ff
+--argentinian-blue: #63adf2ff
+--uranian-blue: #a7ccedff
+--air-superiority-blue: #82a0bcff
+--sunset: #ffcb77ff
+*/
+
+
+/*Global styles
+----------------------------------*/
+/* border box fix */
+html {
+    box-sizing: border-box;
+    *, *:before, *:after {
+        box-sizing: inherit;
+    }
+}
+body {
+    color: #120309ff;
+    margin: 0;
+    padding: 0;
+    /* padding will add the area to left and right back */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+
+}
+
+img {
+    width: 300px;
+}
+
+a {
+    color: #ffffff;
+}
+
+a:hover {
+    text-decoration: none;
+}
+h1{
+    font-size: 60px;
+    /* this reduces the line height below h1 although a better option would be to reduce margin size as done in h1,h2 section */
+    line-height: 1;
+}
+h2 {
+    font-size: 28px;
+}
+/* h1 h2 font family properties don't look good imo*/
+h1,h2{
+    /* font-family: 'Lobster Two', cursive;
+    font-weight: 400; */
+    margin: 0;
+}
+
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+/*Profile
+----------------------------------*/
+header {
+    background-color: #a7ccedff;
+}
+.quote {
+    font-weight: Bold;
+    font-style: Italic;
+}
+
+/*Project
+----------------------------------*/
+.projects {
+    background: #ffcb77ff;
+}
+
+.projects a {
+
+}
+
+.projects .button {
+    color: white;
+    background: #4285F4;
+    border-radius: 4px;
+    padding: 8px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.projects .button:hover {
+    background:rgba(66, 133, 244, 80%);
+}
+/* .project-item {
+    overflow: hidden;
+    border-bottom: 1px dashed #ffffff;
+    padding: 25px 0;
+}
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+.project-item h3 {
+    margin-top: 0;
+} */
+
+.project-item img {
+    display: block;
+    /* margin: 10px auto; */
+    /* width: 100%; */
+    /* clear: both; */
+}
+
+
+/*Work Experience
+----------------------------------*/
+.work-experience {
+    background: #63ADF2;
+}
+
+
+/*Education
+----------------------------------*/
+.education {
+    background: #ffcb77ff;
+}
+
+
+/*Contact Info
+----------------------------------*/
+footer {
+    background: #A7CCED;
+}
