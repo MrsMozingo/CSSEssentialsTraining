@@ -1,3 +1,8 @@
+@import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+
+@import url(https://fonts.googleapis.com/css?family=Lobster+Two:700italic);
 /*
 COLOR PALETTE
 https://coolors.co/120309-63adf2-a7cced-82a0bc-ffcb77
@@ -12,12 +17,12 @@ https://coolors.co/120309-63adf2-a7cced-82a0bc-ffcb77
 /*Global styles
 ----------------------------------*/
 /* .background {
- background-color: white;
+ background-color: black;
 } */
 body {
-    /* background-color: black;    */
+    background-color: white;   
     color: #120309ff;
-    margin: 100px;
+    margin: 125px;
     font-size: 18px;
     line-height: 1.5;
     border: 20px solid rgb(0, 0, 0);
@@ -38,15 +43,21 @@ h1{
     font-size: 50px;
     /* this reduces the line height below h1. Would a better option would be to reduce margin size as done in h1,h2 section? */
     line-height: 1;
+    /* text-shadow: white; */
+    margin: 7px 0 -20px 0 ;
 }
 h2 {
-    font-size: 25px;
+    font-size: 28px;
+}
+.color {
+    color:#ffffff;
+    text-shadow: 0px 2px 2px black;
 }
 /* h1 h2 font family properties don't look good imo*/
 h1,h2{
     /* font-family: 'Lobster Two', cursive;
     font-weight: 400; */
-    margin: 7px;
+    /* margin: 7px; */
 }
 
 /*Profile
@@ -56,15 +67,26 @@ header {
     Width: 50%;
     padding: 75px;
     box-sizing: border-box;
-    margin: 0 50% 0 0;
+    margin: 0 50 0 0;
     border-right: 10px solid rgb(0, 0, 0);
     border-bottom: 10px solid rgb(0, 0, 0);
     /* height:750px; */
 }
 .quote {
-    font-weight: Bold;
+    /* font-weight: Bold; */
     font-style: Italic;
+    color:#ffffff;
+    text-shadow: 1px 1px 10px black;
 }
+.fifties {
+    font-family: lobster two;
+    /* background: $blue; */
+    color: white;
+    text-shadow: 0 7px 9px black;
+    /* text-shadow: 0 8px 0 darken($blue, 9); */
+    font-size: 60px;
+    /* padding: 1em 2rem; */
+  }
 /* .box1 {
     background:#a7ccedff;
     Width: 50%;
